@@ -1,0 +1,18 @@
+{
+  "first":[
+    {"img":"k4.jpg","title":"XPLORER 2  航拍飞行器","show":"搭载自动避障系统","money":"￥433"},
+    {"img":"k3.jpg","title":"Mozbii 触控吸色笔","show":"能吸取65000种颜色","money":"￥暂无"},
+    {"img":"k1.jpg","title":"SCIO 微型光谱仪","show":"可以测定食物成分及营养","money":"￥1212"},
+    {"img":"k2.jpg","title":"B&O BeoSound 35 音响","show":"支持所有音乐流媒体服务","money":"￥512"},
+
+    {"img":"k3.jpg","title":"Mozbii 触控吸色笔","show":"能吸取65000种颜色","money":"￥暂无"},
+    {"img":"k4.jpg","title":"XPLORER 2  航拍飞行器","show":"搭载自动避障系统","money":"￥433"},
+    {"img":"k1.jpg","title":"SCIO 微型光谱仪","show":"可以测定食物成分及营养","money":"￥1212"},
+    {"img":"k2.jpg","title":"B&O BeoSound 35 音响","show":"支持所有音乐流媒体服务","money":"￥512"},
+
+    {"img":"k3.jpg","title":"Mozbii 触控吸色笔","show":"能吸取65000种颜色","money":"￥暂无"},
+    {"img":"k4.jpg","title":"XPLORER 2  航拍飞行器","show":"搭载自动避障系统","money":"￥433"},
+    {"img":"k2.jpg","title":"B&O BeoSound 35 音响","show":"支持所有音乐流媒体服务","money":"￥512"},
+    {"img":"k1.jpg","title":"SCIO 微型光谱仪","show":"可以测定食物成分及营养","money":"￥1212"}
+  ]
+}

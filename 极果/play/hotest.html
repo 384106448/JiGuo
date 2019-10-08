@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>最热</title>
+	<link rel="stylesheet" type="text/css" href="../css/newest.css">
+</head>
+<body>
+	<div id="Box">
+		<!-- 抬头 -->
+		<div class="header">
+			<div class="logo_title">
+				<img src="../img/logonew.png">
+				<ul class="headerContent">
+					<li><a href="../index.html">首页</a></li>
+					<li><a href="../play/newest.html">酷玩</a></li>
+					<li><a href="../guid/dl_zx.html">导购</a></li>
+					<li><a href="../use/use_mf_dz_sy.html">试用</a></li>
+					<li><a href="../report/report_new.html">报告</a></li>
+				</ul>
+				<div class="search">
+					<img src="../css/img/search.png">
+					<p><a href="../register/register.html">注册</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="center">
+			<p class="found">发现酷玩</p>
+			<ul class="top">
+				<li><a href="newest.html">最新</a></li>
+				<li class="new"><a href="hotest.html">最热</a></li>
+				<li><a href="play_pl.html">分类</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="emphasis">
+		<div class="vser">
+				<!--<ul class="ul">-->
+					<!--<li class="pic"><img src="" class="small_img"></li>-->
+					<!--<li class="title"> </li>-->
+					<!--<li class="small"></li>-->
+					<!--<li>-->
+						<!--<ul class="err">-->
+							<!--<li class="color"></li>-->
+							<!--<li class="img"><img src="../css/img/xin.png"><span>3</span></li>-->
+							<!--<li><img src="../css/img/reply.png" alt=""><span>3</span></li>-->
+						<!--</ul>-->
+					<!--</li>-->
+				<!--</ul>-->
+		</div>
+		<div class="last_">
+			<img src="../css/img/more.png" class="loding">
+			<span>点击加载更多</span>
+		</div>
+		<div class="footer">
+		<div class="cen">
+			<p class="er"><img src="../img/code.png"></p>
+			<div class="footer_1">
+				<p><img src="../img/logoImg.jpg"></p>
+				<ul>
+					<li>全球酷玩试用导购平台</li>
+					<li>酷•新奇•好玩•品质</li>
+					<li class="jk">微信添加"JguoJguo"</li>
+					<li>获取我们的服务。</li>
+				</ul>
+			</div> 		
+			<div class="foot footer_2"> 
+				<h4>免费试用</h4>
+				<ul>
+					<li><a href="../use/use_mf.html">试用流程</a></li>
+					<li><a href="#">如何提高成功率</a></li>
+				</ul>
+			</div>	
+			<div class="foot footer_3">
+					<h4>友情链接</h4>
+				<ul>
+					<li><a href="#">智东西</a></li>
+					<li><a href="#">搜狐IT</a></li>
+					<li><a href="#">搜狐数码</a></li>
+					<li><a href="#">凤凰数码</a></li>
+					<li><a href="#">泡泡网</a></li>
+					<li><a href="#">ZUK社区</a></li>
+					<li><a href="#">极客公园</a></li>
+					<li><a href="#">果库</a></li>
+				</ul>	
+			</div>
+			<div class="foot footer_4">
+				<ul>
+					<li><a href="#">WEIBUSI</a></li>
+					<li><a href="#">腾讯科技</a></li>
+					<li><a href="#">凤凰科技</a></li>
+					<li><a href="#">PConline</a></li>
+					<li><a href="#">3W咖啡</a></li>
+					<li><a href="#">亿觅emie</a></li>
+					<li><a href="#">易迅易启玩</a></li>
+				</ul>
+			</div> 	
+			<div class="foot footer_5">
+				<h4>购买攻略</h4>
+				<ul>
+					<li><a href="#">美亚海淘教程</a></li>
+					<li><a href="#">日亚海淘教程</a></li>
+					<li><a href="#">海淘转运攻略</a></li>
+					<li><a href="#">kickstarter众筹购买攻略</a></li>
+					<li><a href="#">indiegogo众筹购买攻略</a></li>
+				</ul>
+			</div>
+			<div class="foot footer_6">
+				<h4>厂商合作</h4>
+				<ul>
+					<li><a href="../use/use_mf.html">关于极果</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">商务合作：BD@jiguo.com</a></li>
+					<li><a href="#">CEO邮箱:CEO@jiguo.com</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="last1">©2016极果版权所有</div>
+	</div>
+		
+	</div>
+	<script type="text/javascript" src="../bootstrap-3.3.7-dist/jquery-3.3.1.js"></script>
+	<script src="../js/doT.min.js"></script>
+	<script id="dot" type="text/x-dot-template">
+		{{~it.first:value:index}}
+		<ul class="ul">
+			<a href="./../use/use-zx.html">
+			<li class="pic"><img src="../img/{{=value.img}}" class="small_img"></li>
+			<li class="title">{{=value.title}}</li>
+			<li class="small">{{=value.show}}</li>
+			<li>
+				<ul class="err">
+					<li class="color">{{=value.money}}</li>
+					<li class="img"><img src="../css/img/xin.png"><span>3</span></li>
+					<li><img src="../css/img/reply.png" alt=""><span>3</span></li>
+				</ul>
+			</li>
+		</a>
+		</ul>
+		{{~}}
+    </script>
+	<script>
+		$(".last_").on("click",function(){
+			$(".loding").attr("src","../css/img/loading-icon.gif");
+			$(".loding").css({"verticalAlign":"-5px"})
+			$(".loding").next("span").text("正在加载中")
+		})
+        $.ajax({
+            type:"GET",
+            dataType:"json",
+            url:"../json/hotest.json",
+            success:function (data) {
+                var dom=doT.template($("#dot").text());
+                $(".vser").html(dom(data));
+            }
+        })
+	</script>
+</body>
+</html>

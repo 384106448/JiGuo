@@ -1,0 +1,294 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+#Box{
+	min-width: 1130px;
+	border-bottom: 1px #CCC7C7 solid;
+}
+.header{
+	width: 1130px;
+	margin:0 auto;
+}
+.headerContent>li:hover a{
+	color:red;
+}
+.headerContent>li{
+	list-style: none;
+	display: inline-block;
+	line-height: 60px;
+	font-size: 20px;
+	margin-left: 50px;
+}
+.headerContent>li:nth-child(3) a{
+	color:red;
+}
+.bk a{
+	color: black;
+}
+.headerContent{
+	margin-left: 15px;
+	overflow: hidden;
+}
+.headerContent>li>a{
+	color:black;
+}
+.headerContent{
+	display: inline-block;
+}
+.logo_title>img{
+	width: 135px;
+	height: 60px;
+}
+.headerContent>li:nth-child(6){
+	float: right;
+}
+.search>img{
+	float: right;
+	margin-top: -40px;
+	margin-right: 90px;
+}
+.search>img:hover{
+	transform: scale(1.1);
+}
+.search>p:hover{
+	background-color: red;
+}
+.search>p:hover a{
+	color: white;
+}
+.search>p{
+	float: right;
+	margin-top: -45px;
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+	border:1px red solid;
+}
+.search>p>a{
+	color:red;
+}
+
+
+.pl_find_kw{
+	width: 1130px;
+	margin:0 auto;
+	margin-top: 45px;
+}
+.qingd{
+	font-size: 40px;
+	text-align: center;
+	margin-top: 45px;
+}
+.pl_find_kw_content{
+	margin-left: 400px;
+	margin-top: 45px;
+
+}
+.pl_find_kw_content li{
+	width: 165px;
+	list-style: none;
+	display: inline-block;
+	font-size: 22px;;
+	text-align: center;
+}
+#re{
+	border-bottom: 3px solid #fd5238;
+	padding-bottom: 15px;
+}
+.pl_find_kw_content>li>a{
+	text-decoration: none;
+	color: #3c3c3c;
+
+}
+.newest{
+	min-width: 1130px;
+	background-color:#DEDCDC; 
+	padding-bottom: 40px;
+	padding-top: 10px;
+}
+.new{
+	width: 1130px;
+	margin:0 auto;
+	padding-bottom: 10px;
+}
+.bk{
+	width: 222px;
+	border: 1px solid #D7D5D5;
+	border-radius: 10px;
+	background-color: white;
+	font-size: 12px;
+	border-bottom:none;
+	position: relative;
+	margin-top: 35px;
+}
+.bk>a{
+	list-style: none;
+}
+.bk>a>li>img{
+	width: 222px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-bottom: 10px;
+	
+}
+.bk>li{
+	list-style: none;
+	display: inline-block;
+}
+.footer_bg{
+	width: 220px;
+	height: 15px;
+	position: absolute;
+	top:100%;
+	left: 0;
+	margin-top: -5px;
+	background:url(../css/img/listbg.jpg) 0 0 no-repeat;
+}
+.xin li{
+	list-style: none;
+	display: inline-block;
+}
+.xin{
+	margin-left: 160px;
+	padding-bottom: 10px;
+}
+.bk>li:nth-child(2){
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 25px;
+}
+.small{
+	/*vertical-align: -2px;*/
+}
+.new>ul{
+	display: inline-block;
+	margin-left: 50px;
+}
+.new>ul:nth-child(3)>li:nth-child(2){
+	 padding-bottom: 43px;
+ }
+.new>ul:nth-child(7)>li:nth-child(2){
+	padding-bottom: 43px;
+}
+.new>ul:nth-child(11)>li:nth-child(2){
+	padding-bottom: 43px;
+}
+.new>ul:nth-child(15)>li:nth-child(2){
+	padding-bottom: 43px;
+}
+.last_footer{
+	width: 1130px;
+	margin:40px auto 0;
+	text-align: center;
+	color: #fe0002;
+	font-size: 14px;
+}
+.last_footer>span:hover{
+	cursor: pointer;
+}
+.small{
+	vertical-align: -2px;
+}
+/*footer*/
+.footer{
+	min-width: 1130px;
+	background-color: #505050;
+}
+.cen{
+	width: 1000px;
+	margin: 0 auto;
+	color: #C5C5C5;
+	overflow: hidden;
+	font-size: 12px;
+}
+.cen li{
+	list-style: none;
+}
+.cen a{
+	text-decoration: none;
+	color: #C5C5C5;
+}
+.cen h4{
+	color: white;
+}
+.cen div{
+	margin-left: 35px;
+	margin-top: 40px;
+}
+.er{
+	float: left;
+	margin-top: 40px;
+}
+.footer_1{
+	float: left;
+}
+.footer_2{
+	float: left;
+}
+.footer_3{
+	float: left;
+}
+.footer_4{
+	float: left;
+}
+.footer_5{
+	float: left;
+}
+.footer_6{
+	float: right;
+	margin-right: 8px;
+}
+.footer_1 ul{
+	margin-top: 20px;
+}
+.jk{
+	margin-top: 15px;
+}
+.foot ul{
+	margin-top: 25px;
+}
+.footer_4 ul{
+	margin-top: 43px;
+}
+.foot h4{
+	color:#E5E5E5;
+}
+.last{
+	width: 1000px;
+	margin: 0 auto;
+	color: #C5C5C5;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 80px;
+	padding-bottom: 15px;
+}
+.bling:hover img{
+	animation: ball 0.3s linear 0.1s infinite;
+}
+@keyframes ball {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.bk:hover{
+	transform: scale(0.95,0.95);
+    transform: translateY(-10px);
+    box-shadow: 2px 10px 6px 4px rgba(155, 137, 137, 0.849) ;
+    transition: all 1s;
+}
+
+
+

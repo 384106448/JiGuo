@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="Box">
+    <!-- 抬头 -->
+    <div class="header">
+        <div class="logo_title">
+            <img src="img/logonew.png">
+            <ul class="headerContent">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="play/newest.html">酷玩</a></li>
+                <li><a href="guid/dl_zx.html">导航</a></li>
+                <li><a href="use/use_mf_dz.html">试用</a></li>
+                <li><a href="report/report_new.html">报告</a></li>
+            </ul>
+            <div class="search">
+                <img src="css/img/search.png">
+                <p><a href="register/register.html">注册</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 大图 -->
+<div class="big_logo">
+    <div class="logo_">
+        <div class="logo_text">
+            <p>幻响小贝HiFi2.1音响</p>
+            <ul class="logo_threeText">
+                <li>126人申请</li>
+                <li>￥599</li>
+                <li>20台</li>
+            </ul>
+            <p class="last_text">申请时间剩余：13天5小时37分钟</p>
+            <button class="logo_btn"> <a href="">立即申请</a> </button>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <p class="try">热门试用</p>
+    <div class="Ajax_json">
+        <ul class="left">
+            <li><img src="css/img/prev.png" alt=""></li>
+        </ul>
+        <div class="thisUl">
+            <div class="thistab">
+
+            </div>
+        </div>
+        <ul class="right">
+            <li><img src="css/img/next.png" alt=""></li>
+        </ul>
+    </div>
+</div>
+<div class="out">
+    <div class="report">
+        <p class="try">报告精选</p>
+        <div class="report_text">
+
+        </div>
+
+    </div>
+</div>
+<div class="emphasis">
+    <p><span>发现酷玩</span><img src="css/img/readMore.png" alt=""><span>查看更多</span></p>
+    <div class="vser">
+        <!--<ul class="ul">
+            <li class="pic"><img src="" class="small_img"></li>
+            <li class="title"></li>
+            <li class="small"></li>
+            <li>
+                <ul class="err">
+                    <li class="color"></li>
+                    <li class="img"><img src="../css/img/xin.png"><span>3</span></li>
+                    <li><img src="../css/img/reply.png" alt=""><span>3</span></li>
+                </ul>
+            </li>
+        </ul>-->
+    </div>
+    <div class="last_">
+        <img src="css/img/more.png" class="loding">
+        <span>点击加载更多</span>
+    </div>
+</div>
+<div class="footer">
+    <div class="cen">
+        <p class="er"><img src="img/code.png"></p>
+        <div class="footer_1">
+            <p><img src="img/logoImg.jpg"></p>
+            <ul>
+                <li>全球酷玩试用导购平台</li>
+                <li>酷•新奇•好玩•品质</li>
+                <li class="jk">微信添加"JguoJguo"</li>
+                <li>获取我们的服务。</li>
+            </ul>
+        </div>
+        <div class="foot footer_2">
+            <h4>免费试用</h4>
+            <ul>
+                <li><a href="use/use_mf.html">试用流程</a></li>
+                <li><a href="#">如何提高成功率</a></li>
+            </ul>
+        </div>
+        <div class="foot footer_3">
+            <h4>友情链接</h4>
+            <ul>
+                <li><a href="#">智东西</a></li>
+                <li><a href="#">搜狐IT</a></li>
+                <li><a href="#">搜狐数码</a></li>
+                <li><a href="#">凤凰数码</a></li>
+                <li><a href="#">泡泡网</a></li>
+                <li><a href="#">ZUK社区</a></li>
+                <li><a href="#">极客公园</a></li>
+                <li><a href="#">果库</a></li>
+            </ul>
+        </div>
+        <div class="foot footer_4">
+            <ul>
+                <li><a href="#">WEIBUSI</a></li>
+                <li><a href="#">腾讯科技</a></li>
+                <li><a href="#">凤凰科技</a></li>
+                <li><a href="#">PConline</a></li>
+                <li><a href="#">3W咖啡</a></li>
+                <li><a href="#">亿觅emie</a></li>
+                <li><a href="#">易迅易启玩</a></li>
+            </ul>
+        </div>
+        <div class="foot footer_5">
+            <h4>购买攻略</h4>
+            <ul>
+                <li><a href="#">美亚海淘教程</a></li>
+                <li><a href="#">日亚海淘教程</a></li>
+                <li><a href="#">海淘转运攻略</a></li>
+                <li><a href="#">kickstarter众筹购买攻略</a></li>
+                <li><a href="#">indiegogo众筹购买攻略</a></li>
+            </ul>
+        </div>
+        <div class="foot footer_6">
+            <h4>厂商合作</h4>
+            <ul>
+                <li><a href="use/toghter.html">关于极果</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">商务合作：BD@jiguo.com</a></li>
+                <li><a href="#">CEO邮箱:CEO@jiguo.com</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="fix"><img src="css/img/back.png" alt=""></div>
+    <div class="last1">©2016极果版权所有</div>
+</div>
+
+
+<script id="listtmpl" type="text/x-dot-template">
+    {{~it.index:value:index}}
+        <ul class="ho">
+            <a href="./shop/shop.html">
+            <li><img src="img/{{=value.img}}" alt="" class="small_img"></li>
+            <li class="title">{{=value.title}}</li>
+            <li>
+                <ul class="err">
+                    <li class="color"><span class="sirce"></span>{{=value.name}}</li>
+                    <li class="img"><img src="css/img/{{=value.img1}}"><span>{{=value.span1}}</span></li>
+                    <li><img src="css/img/{{=value.img2}}" alt=""><span>{{=value.span2}}</span></li>
+                </ul>
+            </li>
+        </a>    
+        </ul>
+    {{~}}
+
+</script>
+
+<script id="listtmp2" type="text/x-dot-template">
+    {{~it.tab:value:index}}
+    <ul class="ul">
+        <a href="./shop/shop.html">
+        <li class="pic"><img src="img/{{=value.img}}" class="small_img"></li>
+        <li class="title">{{=value.title}}</li>
+        <li class="small">{{=value.show}}</li>
+        <li>
+            <ul class="err">
+                <li class="color">{{=value.money}}</li>
+                <li class="img"><img src="css/img/{{=value.img1}}"><span>{{=value.span1}}</span></li>
+                <li><img src="css/img/{{=value.img2}}" alt=""><span>{{=value.span2}}</span></li>
+            </ul>
+        </li>
+    </a>
+    </ul>
+    {{~}}
+
+</script>
+
+<script id="listtmp3" type="text/x-dot-template">
+    {{~it.use_zx_tab:value:index}}
+ <ul class="first_ajax">
+   
+        <li class="firstImg">
+            <img src="img/{{=value.img}}" class="oneImg">
+        </li>
+        <li class="num_text">{{=value.title}}</li>
+        <li>
+            <span class="num1">{{=value.num1}}</span>
+            <span class="num2">{{=value.num2}}</span>
+        </li>
+        <li>
+            <span class="num3">{{=value.num3}}</span><span class="num4">{{=value.num4}}</span>
+        </li>
+        <li class="num5">{{=value.li1}}</li>
+        <li class="sy">{{=value.title_top}}</li>
+   
+    </ul>
+
+    {{~}}
+
+</script>
+
+
+
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/doT.min.js"></script>
+
+<script type="text/javascript">
+    $.ajax({
+        url:'json/index.json',
+        dataType:'json',
+        type:'get',
+        success:function(res){
+            console.log(res);
+            //调用模版
+            var listText = doT.template($('#listtmpl').text());
+            $('.report_text').html(listText(res));
+            var listText1 = doT.template($('#listtmp2').text());
+            $('.vser').html(listText1(res));
+            var listText2 = doT.template($('#listtmp3').text());
+            $('.thistab').html(listText2(res));
+            // function scrollpic(){
+            //     // var li_width = $('.thistab').find("ul").innerWidth();
+            //     // var li_width =500;
+            //     console.log(li_width);
+            //     $('.left').on('click',function(){
+            //         $('.thisUl .thistab').css({'margin-left':-li_width*2});
+            //         $('.thisUl ul').slice(-2).prependTo($('.thistab'));
+            //         $('.thisUl .thistab').animate({'marginLeft':'0px'},1000);
+            //     });
+            //     //右边
+            //     $('.right').on('click',function(){
+            //         $('.thisUl .thistab').animate({'marginLeft':-li_width*2},1000,function(){
+            //             $('.thisUl ul').slice(0,2).appendTo($('.thistab'));
+            //             $('.thisUl .thistab').css({'margin-left':'0px'});
+            //         });
+            //     });
+            //     var timer = setInterval(fn = function () {
+            //         $('.thisUl .thistab').animate({'marginLeft':-li_width*2},3000,function(){
+            //             $('.thisUl ul').slice(0,2).appendTo($('.thistab'));
+            //             $('.thisUl .thistab').css({'margin-left':'0px'});
+            //         });
+            //     },1000);
+            //     $(".left").hover(function () {
+            //         clearInterval(timer);
+            //     },function () {
+            //         setInterval(fn,2000);
+            //     });
+            //     $(".right").hover(function () {
+            //         clearInterval(timer);
+            //     },function () {
+            //         setInterval(fn,2000);
+            //     })
+            // }
+            // scrollpic();
+            $('.Ajax_json').scrollpic({
+
+                childel:'.first_ajax',
+                parentel:'.thistab',
+                time:1000,
+                num:4,
+                left:'.left',
+                right:'.right'
+            })
+        }
+    });
+    $(".last_").on("click",function(){
+        $(".loding").attr("src","css/img/loading-icon.gif");
+        $(".loding").css({"verticalAlign":"-5px"});
+        $(".loding").next("span").text("正在加载中");
+    });
+    $(window).scroll(function(){
+        var topp = $(document).scrollTop();
+        // alert(topp);
+        if(topp>$(window).height()){
+            $(".fix").show();
+        }else {
+            $(".fix").hide();
+        }
+    });
+    $(".fix").on("click",function(){
+        $("html,body").animate({scrollTop:"0"},'slow');
+        console.log($("html,body"));
+    });
+
+    $.fn.extend({
+        scrollpic:function(option){
+            console.log(option);
+            var defaultoption = {
+                time:500,
+                num:4
+            };
+            if(!option.parentel){
+                throw 'option is error';
+            }
+            var activeoption = $.extend(true,{},defaultoption,option);
+            console.log(activeoption);
+
+
+
+            var timer = null;
+            var li_width = $('.thistab').find("ul").outerWidth(true);
+
+            $(activeoption.left).on('click',function(){
+                $(activeoption.parentel).css({'margin-left':-li_width*activeoption.num+'px'});
+                $(activeoption.childel).slice(-activeoption.num).prependTo($(activeoption.parentel));
+                $(activeoption.parentel).animate({'marginLeft':'0px'},activeoption.time);
+            });
+            //右边
+            $(activeoption.right).on('click',function(){
+                clearInterval(timer);
+                $(activeoption.parentel).animate({'marginLeft':-li_width*activeoption.num+"px"},activeoption.time,function(){
+                    // $(activeoption.childel).slice(0,activeoption.num).appendTo($(activeoption.parentel));
+                    $(activeoption.parentel).css({'margin-left':-li_width*activeoption.num+'px'});
+                });
+            });
+            timer = setInterval(fn = function () {
+                $('.thisUl .thistab').animate({'marginLeft':-li_width*activeoption.num},3000,function(){
+                    $('.thisUl ul').slice(0,activeoption.num).appendTo($('.thistab'));
+                    $('.thisUl .thistab').css({'margin-left':'0px'});
+                });
+            },1000);
+            $(".right").on("click",function () {
+                clearInterval(timer);
+            })
+            $(".right").on("mouseleave",function () {
+                setInterval(fn,1000)
+            })
+            $(".left").on("click",function () {
+                clearInterval(timer);
+            });
+            $(".left").on("mouseleave",function () {
+                setInterval(fn,1000);
+            })
+        },
+
+    })
+
+    
+    
+
+</script>
+</body>
+</html>
